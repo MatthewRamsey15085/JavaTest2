@@ -24,6 +24,14 @@ public class AppTest
     {
     	assertEquals(0, 0* 10);
     }
+    
+    public void trueTest()
+    {
+    	boolean expected = true;
+    	boolean actual = new App().isTrue();
+    	
+    	assertEquals(expected, actual);
+    }
 
     /**
      * @return the suite of tests being tested
@@ -32,6 +40,7 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
+   
 
     /**
      * Rigourous Test :-)
