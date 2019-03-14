@@ -20,10 +20,7 @@ public class AppTest
         super( testName );
     }
     
-    public void randomTest()
-    {
-    	assertEquals(0, 0* 10);
-    }
+
     
     public void trueTest()
     {
@@ -47,6 +44,11 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue( false );
+    }
+    
+    public void randomTest()
+    {
+    	assertEquals(0, 0* 10);
     }
 }
